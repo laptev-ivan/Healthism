@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".fragments.DashboardFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Планы питания"
+            android:textSize="32dp" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="start|center_horizontal">
+
+            <VideoView
+                android:id="@+id/videoPlayer"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="2dp" />
+
+            <VideoView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="2dp" />
+        </TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Рецепты"
+            android:textSize="32dp" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="2dp"
+            android:gravity="start|center_horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:contentDescription="@string/app_name"
+                tools:src="@tools:sample/avatars" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:contentDescription="@string/app_name"
+                tools:src="@tools:sample/avatars" />
+        </TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Лента"
+            android:textSize="32dp" />
+    </LinearLayout>
+
+</FrameLayout>

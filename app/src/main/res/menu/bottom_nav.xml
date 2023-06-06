@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Главная"
+        android:id="@+id/dashboard"
+        android:icon="@drawable/ic_dashboard"/>
+    <item
+        android:title="Диетологи"
+        android:id="@+id/nutrients"
+        android:icon="@drawable/ic_nutritionists"/>
+    <item
+        android:title="Дневник"
+        android:id="@+id/diary"
+        android:icon="@drawable/ic_diary"/>
+    <item
+        android:title="Челленджи"
+        android:id="@+id/challenges"
+        android:icon="@drawable/ic_challenges"/>
+    <item
+        android:title="Профиль"
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_profile"/>
+
+</menu>
